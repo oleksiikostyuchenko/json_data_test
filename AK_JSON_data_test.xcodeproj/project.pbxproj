@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11A72BEC1EA91B4900ADEF54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A72BEB1EA91B4900ADEF54 /* main.m */; };
+		11A72BEF1EA91B4900ADEF54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A72BEE1EA91B4900ADEF54 /* AppDelegate.m */; };
+		11A72BF21EA91B4900ADEF54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A72BF11EA91B4900ADEF54 /* ViewController.m */; };
+		11A72BF51EA91B4900ADEF54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A72BF31EA91B4900ADEF54 /* Main.storyboard */; };
+		11A72BFA1EA91B4900ADEF54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A72BF91EA91B4900ADEF54 /* Assets.xcassets */; };
+		11A72BFD1EA91B4900ADEF54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A72BFB1EA91B4900ADEF54 /* LaunchScreen.storyboard */; };
+		11A72C081EA930C100ADEF54 /* AKEntitiesLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A72C071EA930C100ADEF54 /* AKEntitiesLoader.m */; };
+		11A72C0C1EA9C88C00ADEF54 /* AKStorageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A72C0B1EA9C88C00ADEF54 /* AKStorageProvider.m */; };
+		11A72C0F1EA9CE7100ADEF54 /* AKLoaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A72C0E1EA9CE7100ADEF54 /* AKLoaderController.m */; };
+		11A72C121EA9D22E00ADEF54 /* AKFilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A72C111EA9D22E00ADEF54 /* AKFilterController.m */; };
+		11A72C181EA9DBC200ADEF54 /* AKUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A72C171EA9DBC200ADEF54 /* AKUserModel.m */; };
+		11A72C1C1EA9DED800ADEF54 /* AKAppointmentTypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A72C1B1EA9DED800ADEF54 /* AKAppointmentTypeModel.m */; };
+		11A72C1F1EA9DF4800ADEF54 /* AKAppointmentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A72C1E1EA9DF4800ADEF54 /* AKAppointmentModel.m */; };
+		11A72C241EA9F22A00ADEF54 /* AKDataBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A72C231EA9F22A00ADEF54 /* AKDataBaseController.m */; };
+		11A72C271EAA077400ADEF54 /* NSDate+AKNSDateExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A72C261EAA077400ADEF54 /* NSDate+AKNSDateExtension.m */; };
+		11D105F51EEE9CB700B6C17E /* AK_JSON_data_test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11D105F31EEE9CB700B6C17E /* AK_JSON_data_test.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11A72BE71EA91B4900ADEF54 /* AK_JSON_data_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AK_JSON_data_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A72BEB1EA91B4900ADEF54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11A72BED1EA91B4900ADEF54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11A72BEE1EA91B4900ADEF54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11A72BF01EA91B4900ADEF54 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		11A72BF11EA91B4900ADEF54 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		11A72BF41EA91B4900ADEF54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11A72BF91EA91B4900ADEF54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11A72BFC1EA91B4900ADEF54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11A72BFE1EA91B4900ADEF54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11A72C061EA930C100ADEF54 /* AKEntitiesLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKEntitiesLoader.h; sourceTree = "<group>"; };
+		11A72C071EA930C100ADEF54 /* AKEntitiesLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKEntitiesLoader.m; sourceTree = "<group>"; };
+		11A72C0A1EA9C88C00ADEF54 /* AKStorageProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKStorageProvider.h; sourceTree = "<group>"; };
+		11A72C0B1EA9C88C00ADEF54 /* AKStorageProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKStorageProvider.m; sourceTree = "<group>"; };
+		11A72C0D1EA9CE7100ADEF54 /* AKLoaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKLoaderController.h; sourceTree = "<group>"; };
+		11A72C0E1EA9CE7100ADEF54 /* AKLoaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKLoaderController.m; sourceTree = "<group>"; };
+		11A72C101EA9D22E00ADEF54 /* AKFilterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKFilterController.h; sourceTree = "<group>"; };
+		11A72C111EA9D22E00ADEF54 /* AKFilterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKFilterController.m; sourceTree = "<group>"; };
+		11A72C161EA9DBC200ADEF54 /* AKUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKUserModel.h; sourceTree = "<group>"; };
+		11A72C171EA9DBC200ADEF54 /* AKUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKUserModel.m; sourceTree = "<group>"; };
+		11A72C1A1EA9DED800ADEF54 /* AKAppointmentTypeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKAppointmentTypeModel.h; sourceTree = "<group>"; };
+		11A72C1B1EA9DED800ADEF54 /* AKAppointmentTypeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKAppointmentTypeModel.m; sourceTree = "<group>"; };
+		11A72C1D1EA9DF4800ADEF54 /* AKAppointmentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKAppointmentModel.h; sourceTree = "<group>"; };
+		11A72C1E1EA9DF4800ADEF54 /* AKAppointmentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKAppointmentModel.m; sourceTree = "<group>"; };
+		11A72C221EA9F22A00ADEF54 /* AKDataBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKDataBaseController.h; sourceTree = "<group>"; };
+		11A72C231EA9F22A00ADEF54 /* AKDataBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKDataBaseController.m; sourceTree = "<group>"; };
+		11A72C251EAA077400ADEF54 /* NSDate+AKNSDateExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+AKNSDateExtension.h"; sourceTree = "<group>"; };
+		11A72C261EAA077400ADEF54 /* NSDate+AKNSDateExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+AKNSDateExtension.m"; sourceTree = "<group>"; };
+		11D105F41EEE9CB700B6C17E /* AK_JSON_data_test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AK_JSON_data_test.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11A72BE41EA91B4900ADEF54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11A72BDE1EA91B4900ADEF54 = {
+			isa = PBXGroup;
+			children = (
+				11A72BE91EA91B4900ADEF54 /* AK_JSON_data_test */,
+				11A72BE81EA91B4900ADEF54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11A72BE81EA91B4900ADEF54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11A72BE71EA91B4900ADEF54 /* AK_JSON_data_test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11A72BE91EA91B4900ADEF54 /* AK_JSON_data_test */ = {
+			isa = PBXGroup;
+			children = (
+				11A72C541EAA56B000ADEF54 /* ViewControllers */,
+				11A72C201EA9E0E500ADEF54 /* Models */,
+				11A72C211EA9E18300ADEF54 /* Controllers */,
+				11A72C191EA9DDEC00ADEF54 /* Data Handling */,
+				11A72C251EAA077400ADEF54 /* NSDate+AKNSDateExtension.h */,
+				11A72C261EAA077400ADEF54 /* NSDate+AKNSDateExtension.m */,
+				11A72BED1EA91B4900ADEF54 /* AppDelegate.h */,
+				11A72BEE1EA91B4900ADEF54 /* AppDelegate.m */,
+				11A72BF31EA91B4900ADEF54 /* Main.storyboard */,
+				11A72BF91EA91B4900ADEF54 /* Assets.xcassets */,
+				11A72BFB1EA91B4900ADEF54 /* LaunchScreen.storyboard */,
+				11A72BFE1EA91B4900ADEF54 /* Info.plist */,
+				11D105F31EEE9CB700B6C17E /* AK_JSON_data_test.xcdatamodeld */,
+				11A72BEA1EA91B4900ADEF54 /* Supporting Files */,
+			);
+			path = AK_JSON_data_test;
+			sourceTree = "<group>";
+		};
+		11A72BEA1EA91B4900ADEF54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11A72BEB1EA91B4900ADEF54 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11A72C191EA9DDEC00ADEF54 /* Data Handling */ = {
+			isa = PBXGroup;
+			children = (
+				11A72C0A1EA9C88C00ADEF54 /* AKStorageProvider.h */,
+				11A72C0B1EA9C88C00ADEF54 /* AKStorageProvider.m */,
+				11A72C061EA930C100ADEF54 /* AKEntitiesLoader.h */,
+				11A72C071EA930C100ADEF54 /* AKEntitiesLoader.m */,
+			);
+			name = "Data Handling";
+			sourceTree = "<group>";
+		};
+		11A72C201EA9E0E500ADEF54 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				11A72C1D1EA9DF4800ADEF54 /* AKAppointmentModel.h */,
+				11A72C1E1EA9DF4800ADEF54 /* AKAppointmentModel.m */,
+				11A72C1A1EA9DED800ADEF54 /* AKAppointmentTypeModel.h */,
+				11A72C1B1EA9DED800ADEF54 /* AKAppointmentTypeModel.m */,
+				11A72C161EA9DBC200ADEF54 /* AKUserModel.h */,
+				11A72C171EA9DBC200ADEF54 /* AKUserModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		11A72C211EA9E18300ADEF54 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				11A72C0D1EA9CE7100ADEF54 /* AKLoaderController.h */,
+				11A72C0E1EA9CE7100ADEF54 /* AKLoaderController.m */,
+				11A72C101EA9D22E00ADEF54 /* AKFilterController.h */,
+				11A72C111EA9D22E00ADEF54 /* AKFilterController.m */,
+				11A72C221EA9F22A00ADEF54 /* AKDataBaseController.h */,
+				11A72C231EA9F22A00ADEF54 /* AKDataBaseController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		11A72C541EAA56B000ADEF54 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				11A72BF01EA91B4900ADEF54 /* ViewController.h */,
+				11A72BF11EA91B4900ADEF54 /* ViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11A72BE61EA91B4900ADEF54 /* AK_JSON_data_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A72C011EA91B4900ADEF54 /* Build configuration list for PBXNativeTarget "AK_JSON_data_test" */;
+			buildPhases = (
+				11A72BE31EA91B4900ADEF54 /* Sources */,
+				11A72BE41EA91B4900ADEF54 /* Frameworks */,
+				11A72BE51EA91B4900ADEF54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AK_JSON_data_test;
+			productName = AK_JSON_data_test;
+			productReference = 11A72BE71EA91B4900ADEF54 /* AK_JSON_data_test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11A72BDF1EA91B4900ADEF54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Alexey Kostyuchenko";
+				TargetAttributes = {
+					11A72BE61EA91B4900ADEF54 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 11A72BE21EA91B4900ADEF54 /* Build configuration list for PBXProject "AK_JSON_data_test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11A72BDE1EA91B4900ADEF54;
+			productRefGroup = 11A72BE81EA91B4900ADEF54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11A72BE61EA91B4900ADEF54 /* AK_JSON_data_test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11A72BE51EA91B4900ADEF54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A72BFD1EA91B4900ADEF54 /* LaunchScreen.storyboard in Resources */,
+				11A72BFA1EA91B4900ADEF54 /* Assets.xcassets in Resources */,
+				11A72BF51EA91B4900ADEF54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11A72BE31EA91B4900ADEF54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A72C0F1EA9CE7100ADEF54 /* AKLoaderController.m in Sources */,
+				11A72C1C1EA9DED800ADEF54 /* AKAppointmentTypeModel.m in Sources */,
+				11A72C0C1EA9C88C00ADEF54 /* AKStorageProvider.m in Sources */,
+				11A72BF21EA91B4900ADEF54 /* ViewController.m in Sources */,
+				11D105F51EEE9CB700B6C17E /* AK_JSON_data_test.xcdatamodeld in Sources */,
+				11A72BEF1EA91B4900ADEF54 /* AppDelegate.m in Sources */,
+				11A72C241EA9F22A00ADEF54 /* AKDataBaseController.m in Sources */,
+				11A72C121EA9D22E00ADEF54 /* AKFilterController.m in Sources */,
+				11A72BEC1EA91B4900ADEF54 /* main.m in Sources */,
+				11A72C1F1EA9DF4800ADEF54 /* AKAppointmentModel.m in Sources */,
+				11A72C271EAA077400ADEF54 /* NSDate+AKNSDateExtension.m in Sources */,
+				11A72C181EA9DBC200ADEF54 /* AKUserModel.m in Sources */,
+				11A72C081EA930C100ADEF54 /* AKEntitiesLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11A72BF31EA91B4900ADEF54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11A72BF41EA91B4900ADEF54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11A72BFB1EA91B4900ADEF54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11A72BFC1EA91B4900ADEF54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11A72BFF1EA91B4900ADEF54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11A72C001EA91B4900ADEF54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11A72C021EA91B4900ADEF54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AK_JSON_data_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ak.game.AK-JSON-data-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11A72C031EA91B4900ADEF54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AK_JSON_data_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ak.game.AK-JSON-data-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11A72BE21EA91B4900ADEF54 /* Build configuration list for PBXProject "AK_JSON_data_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A72BFF1EA91B4900ADEF54 /* Debug */,
+				11A72C001EA91B4900ADEF54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A72C011EA91B4900ADEF54 /* Build configuration list for PBXNativeTarget "AK_JSON_data_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A72C021EA91B4900ADEF54 /* Debug */,
+				11A72C031EA91B4900ADEF54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		11D105F31EEE9CB700B6C17E /* AK_JSON_data_test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				11D105F41EEE9CB700B6C17E /* AK_JSON_data_test.xcdatamodel */,
+			);
+			currentVersion = 11D105F41EEE9CB700B6C17E /* AK_JSON_data_test.xcdatamodel */;
+			path = AK_JSON_data_test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 11A72BDF1EA91B4900ADEF54 /* Project object */;
+}
