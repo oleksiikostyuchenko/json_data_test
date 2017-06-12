@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16D32" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="AKAppointment" representedClassName="AKAppointment" syncable="YES" codeGenerationType="class">
+        <attribute name="appointmentDetails" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="appointmentEndDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="appointmentID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="appointmentStartDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="appointmentSubject" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="appointmentType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isConfirmed" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="relatedUserID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="AKAppointmentType" representedClassName="AKAppointmentType" syncable="YES" codeGenerationType="class">
+        <attribute name="appointmentDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="appointmentID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="appointmentType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="AKUser" representedClassName="AKUser" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="surname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userPictureURL" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AKAppointment" positionX="-45" positionY="27" width="128" height="165"/>
+        <element name="AKAppointmentType" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="AKUser" positionX="-27" positionY="90" width="128" height="105"/>
+    </elements>
+</model>
